@@ -50,7 +50,7 @@ class TrendingMovies extends Component {
 
     return (
       <Container>
-        <h4 className="text-white">Trending Now</h4>
+        <h4 className="text-white  fs-1 mt-4">Trending Now</h4>
         <Row xs={1} sm={2} md={3} lg={4} xl={6}>
           {movies.slice(0, 6).map((movie) => (
             <Col key={movie.imdbID} className="mb-2 text-center px-1">

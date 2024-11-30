@@ -33,7 +33,7 @@
 
 .card-body {
   position: absolute;
-  bottom: 10px;
+  bottom: 5px;
   left: 10px;
   right: 10px;
   color: white;
@@ -43,7 +43,7 @@
 }
 
 .card-title {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
