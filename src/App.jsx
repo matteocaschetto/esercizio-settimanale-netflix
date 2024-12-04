@@ -11,22 +11,20 @@ import { Container, Row } from "react-bootstrap";
 
 function App() {
   return (
-    <>
-      <div className="bg-dark">
-        <Container>
-          <Row>
-            <MyNavbar />
-            <Container>
-              <TVShowsSection />
-              <TrendingMovies />
-              <Batman />
-              <Ironman />
-              <MyFooter />
-            </Container>
-          </Row>
-        </Container>
-      </div>
-    </>
+    <div className="bg-dark">
+      <Container>
+        <Row>
+          <MyNavbar />
+          <Container>
+            <TVShowsSection />
+            <TrendingMovies />
+            <Batman />
+            <Ironman />
+            <MyFooter />
+          </Container>
+        </Row>
+      </Container>
+    </div>
   );
 }
 
